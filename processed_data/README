@@ -1,0 +1,3 @@
+The database news_stories.db will be created here.
+
+One table will contain all the rows from the original csv files. A "view" will contain a random 5% of the rows.
