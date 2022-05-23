@@ -1,2 +1,3 @@
 processed_data/news_stories.db
 original_data/all-the-news-2-1.csv
+notebooks/.ipynb_checkpoints/*
