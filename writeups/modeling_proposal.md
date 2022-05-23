@@ -27,7 +27,7 @@ This is a more cutting-edge technique which requires training a neural network. 
 
 ### Latent Semantic Analysis
 
-Using the word frequency weights, we'll perform a truncated SVD (with the number of singular vectors as a hyperparameter) of the document-term matrix $A = USV^T$, and use the columns of $$V$$ to discover the topics.
+Using the word frequency weights, we'll perform a truncated SVD (with the number of singular vectors as a hyperparameter) of the document-term matrix $A = USV^T$, and use the columns of $V$ to discover the topics.
 
 ### Latent Dirichlet Allocation
 
