@@ -33,6 +33,8 @@ We used this model to visualize the lifecycle of the different stories by analyz
 
 Additionally, we defined a myopicity index that tells us what fraction of a publication's total articles is dedicated to a single dominant issue. For example, we found that People magazine focuses 75% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). Combined with our previous results, we propose to aggressively target highly myopic news outlets with political candidate promotion/attacks and favorable polls in order to maximize impact and benefit from the constant exposure.
 
+![](notebooks/stories_fraction.png)
+
 For more details see the [notebook](https://github.com/glebzhelezov/Erdos_project/blob/main/notebooks/2018_election.ipynb) and the [executive summary](https://github.com/glebzhelezov/Erdos_project/blob/main/writeups/executive_summary.md).
 
 # Required python libraries to run notebook:
