@@ -24,14 +24,14 @@ Gleb Zhelezov
 
 With this project we aimed to identify and track critical issues in the 2018 midterm election. We believe that our analysis of the coverage these stories received by different media outlets over time is very valuable for designing new campaigning strategies.
 
-# Methods
+# Methods and results
 We used the [components.one](https://components.one/datasets/all-the-news-2-news-articles-dataset/) dataset of around 2.7 million articles and essays scraped from 27 outlets. Although some of the articles in this collection are correctly classified into sections, most are not. To increase the pool of political articles available for our analysis we used a suppoert vector machine (SVM) and random forest binary classifier to detect political stories in the dataset that were not labeled as such.
 
 We tried two topic modeling techniques, Nonnegative Matrix Factorization (NMF) and Latent Semantic Analysis (LSA), to identify the most important stories of 2018. We observed that NMF produced a much clearer topic differentiation.
 
-We used this model to visualize the lifecycle of the different stories by analyzing the number of articles published on a topic every month. 
+We used this model to visualize the lifecycle of the different stories by analyzing the number of articles published on a topic every month. Our results show that political candidates and polls begin gaining traction as early as June and this momentum carries on through to the election months. It is, therefore, important to begin campaigning strong in the summer months and identifying favorable polls to push to news outlets.
 
-Additionally, we defined a myopicity index that tells us what fraction of a publication's total articles is dedicated to a single issue. For example, we found that People magazine focuses 75% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). We learned that an important piece of news should be published by a media outlet with high myopicity if one hopes to maximize its impact. 
+Additionally, we defined a myopicity index that tells us what fraction of a publication's total articles is dedicated to a single dominant issue. For example, we found that People magazine focuses 75% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). Combined with our previous results, we propose to aggressively target highly myopic news outlets with political candidate promotion/attacks and favorable polls in order to maximize impact and benefit from the constant exposure.
 
 For more details see the [notebook](https://github.com/glebzhelezov/Erdos_project/blob/main/notebooks/2018_election.ipynb) and the [executive summary](https://github.com/glebzhelezov/Erdos_project/blob/main/writeups/executive_summary.md).
 
