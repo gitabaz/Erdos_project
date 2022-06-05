@@ -1,5 +1,5 @@
 # Media in the midterms: What did the media cover in 2018, and what can we expect in 2022?
- 
+
 The United States is just a few months away from the crucial 2022 mid-term election. Campaign strategists know the news cycle and media consumption strongly influence election results and are interested in learning: 
 
  - What are the important issues in the media around election time?
