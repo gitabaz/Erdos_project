@@ -1,6 +1,6 @@
 # Media in the Midterms
 
-## What and how did the media cover in 2018 and what can we expect in 2022.
+*What and how did the media cover in 2018 and what can we expect in 2022.*
 
 This Github repositoy contains our project for the May 2022 Data Science Bootcamp
 organized by the Erdos Institute. Our team (Kepler) is integrated by:
