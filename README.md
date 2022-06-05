@@ -28,8 +28,19 @@ We used this model to visualize the lifecycle of the different stories by analyz
 
 Additionally, we defined a myopicity index that tells us what fraction of total articles is dedicated to a single issue. For example, we found that People magazine focuses 70% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). We learned that an important piece of news should be published by a media outlet with high myopicity if one hopes to maximize its impact. 
 
+Required libraries to run our notebook:
 
-The required packages to run this project are:
+Python for numerics:
+numpy
+matplotlib
+
+Data related:
+sqlalchemy
+sklearn
+
+Language related:
+wordcloud
+spacy
 
 
 
