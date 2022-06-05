@@ -1,16 +1,17 @@
-<h1>Media in the midterms: What did the media cover in 2018, and what can we expect in 2022?</h1>
+# Media in the midterms: What did the media cover in 2018, and what can we expect in 2022?
+ 
+The United States is just a few months away from the crucial 2022 mid-term election. Campaign strategists know the news cycle and media consumption strongly influence election results and are interested in learning: 
 
-2022 is a crucial mid-term election year in the United States. Since around 2016, it has been observed time and again in various elections around the world that the news cycle and media consumption strongly influence election results. In this scenario, campaign strategists are interested in knowing: 
-<ul>
-  <li>What are the important issues in the media around election time?</li>
-  <li>When is a good time to start playing up these issues?</li>
-  <li>Which news outlets could give maximum exposure to your ideas?</li>
-</ul>
+ - What are the important issues in the media around election time?
+ - When is a good time to start playing up these issues?
+ - Which news outlets could give maximum exposure to your ideas?
 
-In this project, we looked at a [news dataset](https://components.one/datasets/all-the-news-2-news-articles-dataset/) that scraped news articles by American sources in the previous midterm year, 2018. Then, we utilized standard techniques in Natural Language Processing to answer some of these questions. We were able to provide quantifiers that signify how long an important topic stayed in the spotlight, and which news publications are more susceptible to dominant topics.
+Knowing the answers to these questions would help shape public opinion, election results, and the country's direction.
 
-After classifying unlabeled articles and using Nonnegative Matrix Factorization to identify the most relevant topics in the politics news in 2018, we observed that most topics are tied to specific events that occured throughout 2018. We defined a quantifier called _topic lifecycle_ which measures the popularity of a particular issue relative to its annual peak value on a month-to-month basis. Using this metric, we could see that topics like "Bernie Sanders" and "Polls" start getting traction in the news as early as June (given that the elections are held in November). It is noteworthy that people begin publishing polls around the same time. This momentum is carried through to election time. Thus, we infer that it is important to start campaigning and guiding the conversation towards favorable polls around June.
+To answer these questions, we found the dominant political stories of 2018, quantified when they first began to gain prominence and measured which publications are most amenable to spending a disproportionate amount of time covering a single topic.
 
-Finally, we also defined a _myopicity score_ for each publication in the dataset which corresponds to the fraction of articles dedicated to the single most dominant story at any given time. Outlets like People magazine, and TMZ were found to be "myopic" as more than 75% of the politics news stories in them were focused on a single story. These myopic outlets might be ideal to start promoting/attacking candidates and guiding the conversation around polls. 
+To obtain a representative sample of midterm election political articles, we trained a binary classifier to extract the political stories from a [dataset of approximately 800k stories](https://components.one/datasets/all-the-news-2-news-articles-dataset/) scraped from 27 American publications. We applied Nonnegative Matrix Factorization to identify the most important political news topics of 2018 and introduced a _topic lifecycle_ metric to measure the popularity of a particular issue relative to its annual peak value on a month-to-month basis. This metric allowed us to see that, e.g., polling results start getting traction in the news as early as June (as early as the date of this project submission!). Therefore, campaigns should have a robust media strategy for promoting or explaining poll results as early as five months before the November election.
 
-Given our headstart in analyzing the news cycle in 2018, and our simple metrics to analyze news articles, one can gain key insight into the effect it has on elections. It would be interesting to extend our analysis with news datasets from earlier election years in order to see recurring patterns. 
+A robust media strategy includes knowing where to promote, or drown out, a story. We introduced a _myopicity score_ for each publication in the dataset, which corresponds to the fraction of articles dedicated to the single most dominant story at any given time. These myopic outlets are ideal places for starting a shift in the political narrative. The least myopic publisher in our analysis was _CNBC_ (less than 0.3), and the most myopic publisher was _People_, with many famous publishers somewhere in the middle.
+
+Many of the dominating news stories are cyclical and regularly shape the outcomes of elections. We developed a systematic approach to identifying these stories and used it to provide actionable recommendations for current midterm campaigns.
