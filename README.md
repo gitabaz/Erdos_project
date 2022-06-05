@@ -2,6 +2,8 @@
 
 *What and how did the media cover in 2018 and what can we expect in 2022.*
 
+![](notebooks/full_issue_lifecycle.png)
+
 This Github repositoy contains our project for the May 2022 Data Science Bootcamp
 organized by the Erdos Institute. Our team (Kepler) is integrated by:
 
@@ -29,14 +31,14 @@ We tried two topic modeling techniques, Nonnegative Matrix Factorization (NMF) a
 
 We used this model to visualize the lifecycle of the different stories by analyzing the number of articles published on a topic every month. 
 
-Additionally, we defined a myopicity index that tells us what fraction of total articles is dedicated to a single issue. For example, we found that People magazine focuses 75% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). We learned that an important piece of news should be published by a media outlet with high myopicity if one hopes to maximize its impact. 
+Additionally, we defined a myopicity index that tells us what fraction of a publication's total articles is dedicated to a single issue. For example, we found that People magazine focuses 75% of its articles on its dominant story (high myopicity index), whereas CNBC focuses on multiple stories at a time (low myopicity index). We learned that an important piece of news should be published by a media outlet with high myopicity if one hopes to maximize its impact. 
 
 For more details see the [notebook](https://github.com/glebzhelezov/Erdos_project/blob/main/notebooks/2018_election.ipynb) and the [executive summary](https://github.com/glebzhelezov/Erdos_project/blob/main/writeups/executive_summary.md).
 
 # Required python libraries to run notebook:
-[NumPy](https://numpy.org/)
-[matplotlib](https://matplotlib.org/)
-[SQLAlchemy](https://www.sqlalchemy.org/)
-[scikit-learn](https://scikit-learn.org/stable/index.html)
-[word_cloud](https://github.com/amueller/word_cloud)
-[spaCy](https://spacy.io/)
+- [NumPy](https://numpy.org/)
+- [matplotlib](https://matplotlib.org/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [scikit-learn](https://scikit-learn.org/stable/index.html)
+- [word_cloud](https://github.com/amueller/word_cloud)
+- [spaCy](https://spacy.io/)
